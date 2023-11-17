@@ -2,9 +2,9 @@
 ## Mini Project In C
 
 ### 1. Ask the user if he/she wants
-  a. Turn on the vehicle engine
-  b. Turn off the vehicle engine
-  c. Quit the system
+  - a. Turn on the vehicle engine
+  - b. Turn off the vehicle engine
+  - c. Quit the system
 ### 2. If chose to “Quit the system”: Quit program
 ### 3. If chose to “Turn off the vehicle engine”: Ask him/her again what he/she wants to do (Requirement 1)
 ### 4. Once a choice has been chosen, print on screen the system state.
@@ -49,4 +49,20 @@ requirement 1 must be displayed.
 ### 9. Bonus Requirement: Create #define WITH_ENGINE_TEMP_CONTROLLER, if this #define is 1 then compile/run the code lines that are related to the “Engine Temperature Controller, else do not compile/run. 
 (Code that implements 5-d, 7-c, 7-d-ii, 7-e-v and 7-e-vi)
 
-# Check this video: https://youtu.be/i89M2azHeWM
+### Check this video: https://youtu.be/i89M2azHeWM
+
+> [!TIP]
+> To get an character input use:
+> printf("a. Turn on the vehicle engine\n");
+> printf("b. Turn off the vehicle engine\n");
+> printf("c. Quit the system\n\n");
+> scanf(“ %c”,&input);
+> Make sure you left a space before %c to prevent scanf function from take new line or 
+> enter from the above printf functions as input.
+>
+> 
+> For the bonus requirement, search for how to use preprocessor directive like below in C Language.
+> #if (CONDITION)
+> …
+> #endif
+> This topic will be discussed later in C For Embedded Systems (Embedded C) Course
