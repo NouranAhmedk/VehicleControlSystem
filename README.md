@@ -28,7 +28,7 @@
   - iii. If temperature is ***otherwise***, Turn AC ***OFF***
 ### c. Based on engine temperature data (Take it as input from console, we will assume that this is the sensor read value)
   - i. If temperature less than ***100***, Turn ***“Engine Temperature Controller”*** *ON* and set temperature to *125*
-  - ii. If temperature is greater than ***150***, Turn ***“Engine Temperature Controller”*** ON and set temperature to *125*
+  - ii. If temperature is greater than ***150***, Turn ***“Engine Temperature Controller”*** *ON* and set temperature to *125*
   - iii. If temperature is otherwise, Turn ***“Engine Temperature Controller”*** *OFF*
 ### d. If vehicle speed is 30 km/hr
   - i. Turn ***ON*** AC if it was ***OFF*** and set room temperature to: *current temperature * (5/4) + 1*
