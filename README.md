@@ -60,18 +60,18 @@
 ### Check this video: https://youtu.be/i89M2azHeWM
 
 > [!TIP]
-> **To get an character input use:**
-> - printf("a. Turn on the vehicle engine\n");
-> - printf("b. Turn off the vehicle engine\n");
-> - printf("c. Quit the system\n\n");
-> - scanf(“ %c”,&input);
+> **-To get an character input use:**
+>   - printf("a. Turn on the vehicle engine\n");
+>   - printf("b. Turn off the vehicle engine\n");
+>   - printf("c. Quit the system\n\n");
+>   - scanf(“ %c”,&input);
 > 
-> **Make sure you left a space before %c to prevent scanf function from take new line or 
+> **-Make sure you left a space before %c to prevent scanf function from take new line or 
 > enter from the above printf functions as input.**
 >
 > 
-> **For the bonus requirement, search for how to use preprocessor directive like below in C Language.**
-> - #if (CONDITION)
-> - …
-> - #endif
-> - *This topic will be discussed later in C For Embedded Systems (Embedded C) Course*
+> **-For the bonus requirement, search for how to use preprocessor directive like below in C Language.**
+>   - #if (CONDITION)
+>   - …
+>   - #endif
+>   - *This topic will be discussed later in C For Embedded Systems (Embedded C) Course*
