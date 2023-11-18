@@ -8,7 +8,9 @@
   - a. Turn on the vehicle engine
   - b. Turn off the vehicle engine
   - c. Quit the system
+    
 **2. If chose to ***“Quit the system”***: Quit program**
+
 **3. If chose to ***“Turn off the vehicle engine”****: Ask him/her again what he/she wants to do (Requirement 1)
 ### 4. Once a choice has been chosen, print on screen the system state.
 ### 5. If chose to ***“Turn on the vehicle engine”***, display ***“Sensors set menu”***, menu that simulates the vehicle sensors readings.
