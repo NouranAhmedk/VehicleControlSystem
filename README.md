@@ -49,9 +49,9 @@
   > - i. Engine state: **ON/OFF**.
   > - ii. AC: **ON/OFF**.
   > - iii. Vehicle Speed.
-  >  - *iv. Room Temperature*.
-  >  - *v. Engine Temperature Controller State*.
-  >  - *vi. Engine Temperature*.
+    >  - *iv. Room Temperature*.
+    >  - *v. Engine Temperature Controller State*.
+    >  - *vi. Engine Temperature*.
       
 **8. If chose in menu of requirement 5 to *“Turn off the engine”*, the menu of requirement 1 must be displayed.**
 **9. Bonus Requirement: Create #define WITH_ENGINE_TEMP_CONTROLLER, if this #define is 1 then compile/run the code lines that are related to the “Engine Temperature Controller, else do not compile/run.** 
